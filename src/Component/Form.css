@@ -1,0 +1,45 @@
+.div-form {
+    margin-left: 20px;
+}
+
+.h1-in-form {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 10px 10px 5 px 10px;
+    
+  
+}
+
+.input-g {
+    margin: 0px 0px;
+    background-color: #ffc3c3;
+    padding: 5px 50px 5px 5px;
+    border-color: #d75c5c;
+    color: rgb(14, 14, 14);
+    border-radius: 3px;
+    border-width: 1.5px;
+    
+}
+.description-g {
+    margin: 0px 0px;
+    background-color: #ffc3c3;
+    padding: 5px 5px 5px 5px;
+    margin: 3px 0px 8px 0px;
+    border-color: #d75c5c;
+    color: rgb(14, 14, 14);
+    border-radius: 3px;
+    border-width: 1.5px;
+    word-wrap: break-word;
+    min-height: 70px;
+    min-width: 248px;
+}
+.button-g {
+    background-color: #e56f6f;
+    padding: 5px 15px;
+    border-color:#e56f6f;
+    border-radius: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 20px;
+}
