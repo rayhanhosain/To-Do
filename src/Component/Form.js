@@ -42,7 +42,8 @@ function Form () {
         
         settingTask(task.taskName !== "" ? [...taskOrTasksToDo, task] : taskOrTasksToDo);
         
-
+        SettingTaskNameInput('')
+        SettingDescriptionInput('')
         document.getElementById("task-name").value = ""
         document.getElementById("task-description").value = ""
 
