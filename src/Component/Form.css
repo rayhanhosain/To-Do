@@ -13,9 +13,9 @@
 
 .input-g {
     margin: 0px 0px;
-    background-color: #ffc3c3;
-    padding: 5px 50px 5px 5px;
-    border-color: #d75c5c;
+    background-color: #8e9491;
+    padding: 5px 54px 5px 5px;
+    border-color: #38413dc0;
     color: rgb(14, 14, 14);
     border-radius: 3px;
     border-width: 1.5px;
@@ -23,10 +23,10 @@
 }
 .description-g {
     margin: 0px 0px;
-    background-color: #ffc3c3;
+    background-color: #8e9491;
     padding: 5px 5px 5px 5px;
     margin: 3px 0px 8px 0px;
-    border-color: #d75c5c;
+    border-color: #38413dc0;
     color: rgb(14, 14, 14);
     border-radius: 3px;
     border-width: 1.5px;
@@ -35,9 +35,9 @@
     min-width: 248px;
 }
 .button-g {
-    background-color: #e56f6f;
+    background-color: rgba(14, 81, 72, 0.626);
+    border-color: rgba(14, 81, 72, 0.626);
     padding: 5px 15px;
-    border-color:#e56f6f;
     border-radius: 10px;
     font-weight: bold;
     color: whitesmoke;
