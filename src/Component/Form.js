@@ -41,14 +41,12 @@ function Form () {
         }
         
         settingTask(task.taskName !== "" ? [...taskOrTasksToDo, task] : taskOrTasksToDo);
-        console.log(taskOrTasksToDo)
-
-        SettingTaskNameInput("")
-        SettingDescriptionInput("")
-
         
 
+        document.getElementById("task-name").value = ""
+        document.getElementById("task-description").value = ""
 
+        
     }
 
     function cmpltd(id) {
@@ -70,9 +68,9 @@ function Form () {
 
     return <div className='div-form'>
         <h1 className='h1-in-form'>Add Task</h1>
-        <input onChange={TaskNameInputAdding} className="input-g" type='text' placeholder='Task Name' /> <br/>
+        <input id='task-name' onChange={TaskNameInputAdding} className="input-g" type='text' placeholder='Task Name' /> <br/>
 
-        <textarea onChange={DescriptionAdding} className="description-g" type='text' placeholder='Task Description' /><br/>
+        <textarea id='task-description' onChange={DescriptionAdding} className="description-g" type='text' placeholder='Task Description' /><br/>
 
         <button onClick={addingTask} className='button-g'>+</button>
 
